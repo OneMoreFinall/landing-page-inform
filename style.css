@@ -19,7 +19,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(106, 132, 145, 0.98);
+    background: rgba(136, 176, 196, 0.98);
     backdrop-filter: blur(10px);
     padding: 1rem 2rem;
     z-index: 1000;
@@ -28,7 +28,7 @@ body {
 }
 
 .navbar.scrolled {
-    background: rgba(107, 125, 134, 0.98);
+    background: rgba(127, 161, 179, 0.98);
     box-shadow: 0 2px 30px rgba(44, 62, 80, 0.15);
 }
 
@@ -106,9 +106,10 @@ body {
 }
 
 .hero-section {
-    background: linear-gradient(135deg, #aed6f1 0%, #85c1e9 100%);
+    background: linear-gradient(135deg, #1b4f72 0%, #2874a6 100%);
     position: relative;
     overflow: hidden;
+    color: white;
 }
 
 .hero-section::before {
@@ -164,14 +165,12 @@ body {
 
 .slogan {
     font-size: 1.3rem;
-    color: #34495e;
     margin-bottom: 2rem;
     font-style: italic;
 }
 
 .deskripsi {
     font-size: 1.1rem;
-    color: #2c3e50;
     max-width: 600px;
     margin: 0 auto 3rem;
     line-height: 1.8;
